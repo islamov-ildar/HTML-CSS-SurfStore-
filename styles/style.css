@@ -1,0 +1,495 @@
+body{
+    margin: 0;
+}
+.top{
+    height: 700px;
+    background-color: #abeafa;
+    background-image: url("../images/indexBack.jpg");
+    background-size: cover;
+}
+.topInside{
+    width: 1170px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+
+}
+.main{
+    min-height: 800px; /*потом будет растягиваться контентом -> удалить*/
+    background-color: #abeafa;
+}
+.mainCenter{
+    width: 1170px;
+    min-height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+.mainLeft{
+    width: 270px;
+    float: left;
+    background-color: #abeafa;
+    margin-top: -27px;
+}
+.mainRight{
+    width: 870px;
+    float: right;
+    background-color: #abeafa;
+    margin-top: -27px;
+}
+.logo{
+    display: block;
+    background: url("../images/logo.png");
+    width: 125px;
+    height: 111px;
+    position: relative;
+    top: 19px;
+    left: 67px;
+}
+.yellowBanner{
+    height: 300px;
+    width: 270px;
+    background-color: #fff51f;
+    position: relative;
+    top: 219px;
+    left:-3px;
+}
+.text-welcome{
+    font-family: Raleway, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1;
+    padding-top: 78px;
+    padding-left: 26px;
+    color: #333333;
+}
+@font-face {
+    font-family: Raleway-Bold-Italic;
+    src: url(../fonts/Raleway-Bold-Italic.ttf);
+}
+.text-theonly{
+    height: 60px;
+    width: 218px;
+    font-family: Raleway-Bold-Italic, Calibri, sans-serif;
+    font-size: 18px;
+    line-height: 0.78;
+    color: #333333;
+    text-align: left;
+    padding-top: 21px;
+    padding-left: 25px;
+    letter-spacing: normal;
+    font-stretch: normal;
+}
+.buyButton a{
+    text-decoration: none;
+    color:inherit;
+    height: 49px;
+    width: 124px;
+    background-color: #fff51f;
+    position: absolute;
+    top: 138px;
+    left: 753px;
+    padding-top: 16px;
+    padding-left: 25px;
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    box-sizing: border-box
+}
+.buyButton a:hover{
+    color:white;
+    background-color: black;
+}
+@font-face {
+    font-family: Raleway-ExtraBold;
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+.text-JP{
+    color: #fff51f;
+    width: 313px;
+    height: 169px;
+    position: absolute;
+    top: 238px;
+    left: 744px;
+    font-size: 48px;
+    font-family: Raleway-ExtraBold, sans-serif;
+    text-align: left;
+    line-height: 34px;
+
+}
+@font-face {
+    font-family: Raleway-Regular;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+.text-SuperEasy{
+    font-family: Raleway-Regular, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 6px;
+}
+.mini-ico {
+    position: absolute;
+    top: 42px;
+    left: 981px;
+}
+.mini-ico i{
+    margin-right: 10px;
+    color: white;
+}
+@font-face {
+    font-family: Roboto-Black;
+    src: url(../fonts/Roboto-Black.ttf);
+
+}
+.main-menu{
+    background-color: #26d2fc;
+}
+.main-menu a{
+    display: block;
+    text-decoration: none;
+    width: inherit;
+    font-family: Roboto-Black, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 36px;
+    color: #000000;
+    text-align: left;
+    padding-left: 38px;
+    padding-top: 2.4px;
+}
+
+.titleMenu{
+    height: 66px;
+    background-color: black;
+}
+.titleMenu a{
+    height: inherit;
+    color: white;
+    box-sizing: border-box;
+    padding-top: 19px;
+}
+.main-menu a:hover{
+    background-color: #000000;
+    color: white;
+}
+@font-face {
+    font-family: Raleway-Heavy;
+    src: url(../fonts/Raleway-Heavy.ttf);
+}
+.left-banner{
+    background-color: white;
+    width: 270px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+    /*top: 490px;*/
+    margin-top: 30px;
+    font-family: Raleway-Heavy, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #333333;
+}
+.left-banner-img{
+    background-image: url("../images/store.jpg");
+    width: 250px;
+    height: 280px;
+}
+.left-banner-text{
+    position: absolute;
+    top: 129px;
+    right: 19px;
+}
+.newProduct{
+    width: 870px;
+    height: 78px;
+    background-color: white;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 30px;
+}
+.newProduct-text{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: Roboto-Black-Italic, sans-serif;
+    font-style: italic;
+    letter-spacing: -0.8px;
+    position: absolute;
+    top: 26px;
+    left: 25px;
+    color: #707070;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+}
+.product {
+    width: 270px;
+    height: 320px;
+    background-color: white;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.product-name{
+    font-family: Roboto-Black-Italic, sans-serif;
+    font-size: 13.5px;
+    font-weight: 900;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: 0.005px;
+    text-align: left;
+    color: #333333;
+    width: 155px;
+    float: left;
+    max-height:2.4em;
+;
+}
+.product-price{
+    font-family: Roboto-Black, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    text-align: right;
+}
+.old-price{
+    color:#e24602;
+    font-size: 14px;
+    text-decoration: line-through;
+    font-family: Roboto-Black-Italic, sans-serif;
+    text-align: right;
+}
+.product-corner{
+    background-image: url("../images/new-corner.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 46px;
+    height: 46px;
+    font-family: Roboto, sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding: 9px 0 0 22px;
+}
+.product-corner-hot {
+    background-image: url("../images/hot-corner.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 46px;
+    height: 46px;
+    font-family: Roboto, sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    padding: 9px 0 0 22px;
+}
+.product-img{
+    margin-bottom: 19px;
+}
+
+.manufact{
+    height: 160px;
+    width: inherit;
+    background-color: white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+@font-face {
+    font-family: Roboto-Black-Italic;
+    src: url(../fonts/Roboto-Black-Italic.ttf);
+}
+.instaFeed{
+    text-align: center;
+    font-family: "Roboto-Black-Italic", Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: #eaeaea;
+    height: 350px;
+    padding-top: 54px;
+}
+.instaFeed span{
+     width: 100%;
+     font-size: 22px;
+     text-align: center;
+     font-family: "Roboto-Black-Italic", Tahoma, sans-serif;
+ }
+.instaFeed i{
+    font-size: 1.7em;
+    position:relative;
+    top:2.5px;
+}
+.instaFoto{
+    padding-top: 29px;
+    height: 350px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+}
+.instaFoto img{
+    height: 185px;
+    width: 185px;
+    box-sizing: border-box;
+    padding: 8px;
+    background-color: white;
+}
+.social-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-buttons a{
+    height: 150px;
+    width: calc(100%/3);
+    text-decoration: none;
+    font-size: 4em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-buttons a:nth-child(1) {
+    background-color: #3b5997;
+}
+.social-buttons a:nth-child(2) {
+    background-color: #3fccfd;
+}
+
+.social-buttons a:nth-child(3) {
+    background-color: #cb2027;
+}
+.footer {
+    height: 351px;
+    width: inherit;
+    background-color: #373737;
+}
+.footer-center{
+    width: 1170px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+.footer-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.AboutUs-text{
+    display: inline-block;
+    width: 232px;
+}
+@font-face {
+    font-family: Raleway-ExtraBold;
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+.footer-menu li, .newsSubscribleText, .AboutUs-text, .phone, .contacts-email{
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 12px;
+    list-style: none;
+    color:white;
+    line-height: 18px;
+}
+.footer-menu a{
+    text-decoration: none;
+    color:white;
+}
+.AboutUs-text{
+    line-height: 12px;
+}
+.footer-menu li:nth-child(1), .title{
+    color:white;
+    font-family: "Raleway-ExtraBold", sans-serif;
+    font-size: 18px;
+    list-style: none;
+    padding-top: 75px;
+    padding-bottom: 28px;
+}
+
+.NewsLetter, .title{
+    padding-bottom: 0;
+    position: relative;
+}
+.phone, .contacts-email{
+    font-size: 14px;
+    line-height: 36px;
+}
+#contacts-email-color{
+    color:#faef03;
+}
+#email{
+    background-color: #fff51f;
+    border: #fff51f;
+    width: 180px;
+    height: 30px;
+    margin: 10px;
+}
+.submit-button{
+    background-color: black;
+    color: white;
+    border-color: black;
+    margin-left: -2px;
+    width: 71px;
+    height: 30px;
+}
+.submit-button:hover{
+    color:black;
+    background-color: white;
+    border-color: white;
+}
+.cards{
+    width: 266px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 218px;
+    left: -10px;
+}
+.footer-down{
+    background-color: #333333;
+    height: 50px
+}
+.copyright{
+    color: #dad9d9;
+    font-family: "Roboto-Regular", sans-serif;
+    line-height: 22px;
+    padding:15px;
+    text-align: left;
+}
+.mini-ico-footer{
+    position: absolute;
+    top:16px;
+    right:0;
+}
+.mini-ico-footer a{
+    color:white;
+    padding-left: 13px;
+}
